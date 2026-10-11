@@ -1,0 +1,140 @@
+/* --- Global Resets & Basics --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f4f7f6;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- Header Layout --- */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.welcome-note {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+h1 {
+    color: #2980b9;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* --- Content Cards Styling --- */
+section, .contact-card {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    border-left: 5px solid #2980b9;
+    padding-left: 12px;
+}
+
+h3 {
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+/* --- Lists Configuration --- */
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+/* --- Elevated Contact Card (Your Burlywood Section) --- */
+.contact-card {
+    background-color: #deb887; /* Beautiful Burlywood */
+    border: 1px solid #cd9a62;
+}
+
+.contact-card h2 {
+    border-left: 5px solid #5d4037;
+    color: #5d4037;
+}
+
+.contact-card p {
+    color: #4e342e;
+    font-weight: 500;
+}
+
+.contact-card a {
+    color: #b71c1c;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.contact-card a:hover {
+    border-color: #b71c1c;
+}
+
+/* --- Inline Utilities --- */
+.inline-sample {
+    text-align: center;
+    margin: 35px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.highlight-blue {
+    color: #0056b3;
+    font-weight: bold;
+    background-color: #e6f0fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* --- Gallery Layout --- */
+.gallery-card img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    margin-top: 15px;
+}
+
+/* --- Footer Configuration --- */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: #95a5a6;
+    font-size: 0.95rem;
+    border-top: 1px solid #e2e8f0;
+}
